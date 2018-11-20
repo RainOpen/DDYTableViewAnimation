@@ -73,4 +73,17 @@
     });
 }
 
+//- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+//    CATransform3D transform = CATransform3DIdentity;
+//    transform = CATransform3DRotate(transform, 0, 0, 0, 1);
+//    transform = CATransform3DTranslate(transform, -200, 0, 0);
+//    transform = CATransform3DScale(transform, 0, 0, 0);
+//    cell.layer.transform = transform;
+//    cell.layer.opacity = 0.0;
+//    [UIView animateWithDuration:0.6 animations:^{
+//        cell.layer.transform = CATransform3DIdentity;
+//        cell.layer.opacity = 1;
+//    }];
+//}
+
 @end
